@@ -68,6 +68,9 @@ header > nav > ul > li {
 
 /* main */
 
+h3 {
+    text-align: center;
+}
 main {
     display: grid;
     grid-template-columns:auto auto auto ;
