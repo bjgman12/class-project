@@ -71,6 +71,13 @@ header > nav > ul > li {
 h3 {
     text-align: center;
 }
+h4 #clock {
+
+font-size: 36px;
+display: block;
+padding: 5px 0px;
+text-align: center;
+}
 main {
     display: grid;
     grid-template-columns:auto auto auto ;
