@@ -81,7 +81,7 @@ h4 #clock {
 main {
     display: grid;
     grid-template-columns:auto auto auto ;
-    grid-template-rows: 500px 500px auto ;
+    grid-template-rows: 370px 340px auto ;
     align-items: end;
     align-content:end;
     margin-top: 30px;
@@ -165,7 +165,6 @@ main {
     margin: 20px;
 
 }
-
 
 
 
