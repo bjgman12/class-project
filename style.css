@@ -19,9 +19,9 @@ body {
 /* header */
 header {
     margin: 0px auto;
-    width: 3260px;
+    width: 95vw;
     background-color: #0a0f26;
-    border: 3px solid #a67a00;
+    border: .2vw ridge #a67a00;
     font-family: DSfont;
 
 }
@@ -35,9 +35,9 @@ header > img {
 
 h1 {
     text-align: center;
-    padding: 30px;
-    margin-right: 150px;
-    font-size: 100px;
+    padding: .1vw;
+    margin: .5vw;
+    font-size: 5vw;
 }
 
 header > nav {
@@ -46,20 +46,20 @@ header > nav {
 }
 
 a {
-    font-size: 40px;
+    font-size: 1.5vw;
     color: #a67a00
 }
 header > nav > ul > li {
     display: inline-block;
-    width: 400px;
-    border: 3px solid #000000;
+    width: 14vw;
+    border: .2vw solid #000000;
     text-align: center;
     border-radius: 25px;
-    padding: 10px;
+    padding: .1vw;
     background-color: #0a0f26;
-    margin-right: 150px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-right: 2vw;
+    margin-top: .2vw;
+    margin-bottom: .2vw;
     
 
 } 
@@ -73,7 +73,7 @@ h3 {
 }
 h4 #clock {
 
-    font-size: 36px;
+    font-size: 1.5vw;
     display: block;
     padding: 5px 0px;
     text-align: center;
@@ -81,7 +81,7 @@ h4 #clock {
 main {
     display: grid;
     grid-template-columns:auto auto auto ;
-    grid-template-rows: 370px 340px auto ;
+    grid-template-rows: 19vw 19vw auto ;
     align-items: end;
     align-content:end;
     margin-top: 30px;
@@ -91,10 +91,10 @@ main {
 }
 #main{
     background-color: #000000;
-    border: 10px ridge #a67a00;
-    width: 1150px;
-    height: 1350px;
-    font-size: 35px;
+    border: .5vw ridge #a67a00;
+    width: 31vw;
+    height: 60vw;
+    font-size: 1.5vw;
     grid-row-start: 1;
     grid-row-end:4;
     
@@ -103,9 +103,9 @@ main {
 }
 
 #main > img {
-    width: 1050px;
-    border: 6px solid #660d07;
-    margin: 30px;
+    width: 29vw;
+    border: .3vw solid #660d07;
+    margin: .8vw;
    
 }
 
@@ -114,15 +114,15 @@ main {
     grid-row: 1;
     align-self: start;
     background-color: #000000;
-    width: 1980px;
-    font-size: 35px;
+    width: 60vw;
+    font-size: 1.5vw;
     border: 10px ridge #a67a00;
-    height: 350px;
+    height: 16vw;
 }
 
 #s1 > img{
-    width: 500px;
-    border: 6px solid #660d07;
+    width: 20vw;
+    border: .5vw solid #660d07;
     float: left;
     margin: 20px;
     
@@ -135,16 +135,18 @@ main {
     grid-row: 2;
     align-self: start;
     background-color: #000000;
-    width: 1980px;
-    font-size: 35px;
+    width: 60vw;
+    font-size: 1.5vw;
     border: 10px ridge #a67a00;
+    height: 16vw;
 }
 
 #s2 > img{
-    width: 500px;
-    border: 6px solid #660d07;
+    width: 20vw;
+    border: .5vw solid #660d07;
     float: left;
-    margin:20px;
+    margin: 20px;
+    
 
 }
 
@@ -153,17 +155,17 @@ main {
     grid-row: 3;
     align-self: start;
     background-color: #000000;
-    width: 1980px;
-    font-size: 35px;
+    width: 60vw;
+    font-size: 1.5vw;
     border: 10px ridge #a67a00;
+    height: 16vw;
 }
 
 #s3 > img{
-    width: 500px;
-    border: 6px solid #660d07;
+    width: 20vw;
+    border: .5vw solid #660d07;
     float: left;
     margin: 20px;
-
 }
 
 
@@ -171,9 +173,9 @@ main {
 /*footer */
 
 footer { margin: 0px auto;
-    width: 3260px;
+    width: 95vw;
     background-color: #000000;
-    border: 3px solid #a67a00;
+    border: .2vw solid #a67a00;
     font-family: DSfont;
 }
 footer > nav {
@@ -182,20 +184,20 @@ footer > nav {
 
 footer > nav > ul > li {
     display: inline-block;
-    width: 400px;
-    border: 3px solid #000000;
+    width: 20vw;
+    border: .1vw solid #000000;
     text-align: center;
     border-radius: 25px;
-    padding: 10px;
+    padding: .1vw;
     background-color: #0a0f26;
-    margin-right: 350px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: inherit;
+    margin-right: 10vw;
+    margin-top: .3vw;
+    margin-bottom: .3vw;
     font-family: DSfont;
 }
 
-
 #tag {
     font-style: italic;
+    font-family:DSfont;
+    font-size: 1.5vs;
 }
