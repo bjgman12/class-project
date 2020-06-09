@@ -5,8 +5,9 @@
 //step 1
 // insert greeting into a function
 //insert into code
+setTimeout( function askName(){
 
-function askName(){
+   
     var name = prompt('Please enter your name');
     var askName = document.getElementById('askName');
 
@@ -20,8 +21,10 @@ function askName(){
         var message = ' Hitting cancel I see.';
         askName.innerText = message;
     }
-}
-function askClass(){
+}, 800);
+
+
+setTimeout (function askClass(){
     var question = prompt("Are you enjoying this 102 course? Yes or No?");
     var askClass = document.getElementById('askClass');
 
@@ -38,7 +41,7 @@ function askClass(){
         var message = ' You like that cancel button dont you';
         askClass.innerText = message;
     }
-}
+}, 1000);
 
 
 
