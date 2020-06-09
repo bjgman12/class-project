@@ -7,7 +7,8 @@
 /* entire document */
 
 body {
-    background-color: #0a0f26;
+    background-image: url("Jhin.png");
+    background-size: cover;
     color: #a67a00;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -20,7 +21,7 @@ body {
 header {
     margin: 0px auto;
     width: 95vw;
-    background-color: #0a0f26;
+    background-color: rgba(12,27,36,.7);
     border: .2vw ridge #a67a00;
     font-family: DSfont;
 
@@ -88,7 +89,7 @@ main {
     
 }
 #main{
-    background-color: #000000;
+    background-color: rgba(0,0,0,.8);
     border: .5vw ridge #a67a00;
     width: 31vw;
     height: 60vw;
@@ -107,7 +108,7 @@ main {
 
 .side {
     align-self: start;
-    background-color: #000000;
+    background-color:  rgba(0,0,0,.8);
     width: 60vw;
     font-size: 1.5vw;
     border: 10px ridge #a67a00;

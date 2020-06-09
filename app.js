@@ -116,9 +116,9 @@ function clock(){
 
 //}
 
-var buildCake = function(cakeType,frosting, filling){
-    var message =('I want a ' + cakeType + ' cake iced with ' + frosting + ' frosting and filled with ' + filling + '!')
-    return message;
-}
+//var buildCake = function(cakeType,frosting, filling){
+  //  var message =('I want a ' + cakeType + ' cake iced with ' + frosting + ' frosting and filled with ' + filling + '!')
+    //return message;
+//}
 
-buildCake('white','lavender','lemon custard');
+//buildCake('white','lavender','lemon custard');
