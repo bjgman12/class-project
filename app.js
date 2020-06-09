@@ -6,41 +6,41 @@
 // insert greeting into a function
 //insert into code
 
-function askName()
-{
-    var name  = prompt("Please enter your name");
+function askName(){
+    var name = prompt('Please enter your name');
+    var askName = document.getElementById('askName');
 
-if (name.length > 0 & name != "null")  {
-   return document.write('<h3>Welcome ' + name + '</h3>');
-} else if( name != "null"){
-     return document.write('<h3> Fine don\'t tell me</h3>');
+    if (name.length > 0 & name != "null"){
+        var message = ' Welcome ' + name + '!';
+        askName.innerText = message;
+    } else if( name !="null"){
+        var message = ' Fine don\'t tell me';
+        askName.innerText = message;
+    } else {
+        var message = ' Hitting cancel I see.';
+        askName.innerText = message;
+    }
 }
-else{
-   return document.write('<h3> Hitting cancel I see</h3>');
-}
-    
+function askClass(){
+    var question = prompt("Are you enjoying this 102 course? Yes or No?");
+    var askClass = document.getElementById('askClass');
+
+    if (question == "Yes" || question == "yes"){
+        var message = ' I am glad to hear that.';
+        askClass.innerText = message;
+    } else if (question == "No" || question == "no"){
+        var message = ' I am sorry to hear that.';
+        askClass.innerText = message;
+    } else if ( question != null){
+        var message = ' I said yes or no but ok';
+        askClass.innerText = message;
+    } else {
+        var message = ' You like that cancel button dont you';
+        askClass.innerText = message;
+    }
 }
 
-//step 2
-//insert clock into function
-//insert into code
-function askClass()
-{
-    var question  = prompt("Are you enjoying this 102 class? Yes or No");
 
-if (question == "Yes" || question == "yes"){
-   return document.write('<h3> Glad to hear it </h3>');
-} else if ( question == "No" || question == "no")
-{
-     return document.write('<h3> Sorry to hear it </h3> ');
-}
-else if( question != null){
-     return document.write('<h3> I said Yes or No, but ok </h3>');
-}
-else{
-    return document.write('<h3> you like that cancel button don\'t you.</h3>');
-}
-}
 
 //step 3
 //insert three into function
