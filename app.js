@@ -104,28 +104,21 @@ function clock(){
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function logger(){
-    var message = 'hello playa';
+//function logger(){
+  //  var message = 'hello playa';
     //console.log(message);
-    return message ;
+    //return message ;
 
-}
-function logUsername(username){
-    var message = 'Hello' + username + '!';
-    return message ;
+//}
+//function logUsername(username){
+ //   var message = 'Hello' + username + '!';
+  //  return message ;
 
+//}
+
+var buildCake = function(cakeType,frosting, filling){
+    var message =('I want a ' + cakeType + ' cake iced with ' + frosting + ' frosting and filled with ' + filling + '!')
+    return message;
 }
+
+buildCake('white','lavender','lemon custard');

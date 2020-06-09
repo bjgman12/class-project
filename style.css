@@ -86,8 +86,6 @@ main {
     align-content:end;
     margin-top: 30px;
     
-
-   
 }
 #main{
     background-color: #000000;
@@ -98,8 +96,6 @@ main {
     grid-row-start: 1;
     grid-row-end:4;
     
-  
-
 }
 
 #main > img {
@@ -109,9 +105,7 @@ main {
    
 }
 
-#s1 {
-    grid-column:3;
-    grid-row: 1;
+.side {
     align-self: start;
     background-color: #000000;
     width: 60vw;
@@ -120,52 +114,28 @@ main {
     height: 16vw;
 }
 
-#s1 > img{
+.side > img {
     width: 20vw;
     border: .5vw solid #660d07;
     float: left;
     margin: 20px;
     
-
 }
-
+#s1 {
+    grid-column:3;
+    grid-row: 1;
+  
+}
 
 #s2 {
     grid-column:3;
     grid-row: 2;
-    align-self: start;
-    background-color: #000000;
-    width: 60vw;
-    font-size: 1.5vw;
-    border: 10px ridge #a67a00;
-    height: 16vw;
-}
-
-#s2 > img{
-    width: 20vw;
-    border: .5vw solid #660d07;
-    float: left;
-    margin: 20px;
-    
-
+ 
 }
 
 #s3 {
     grid-column:3;
     grid-row: 3;
-    align-self: start;
-    background-color: #000000;
-    width: 60vw;
-    font-size: 1.5vw;
-    border: 10px ridge #a67a00;
-    height: 16vw;
-}
-
-#s3 > img{
-    width: 20vw;
-    border: .5vw solid #660d07;
-    float: left;
-    margin: 20px;
 }
 
 
