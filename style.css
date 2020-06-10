@@ -79,6 +79,14 @@ h4 #clock {
     padding: 5px 0px;
     text-align: center;
     }
+
+section {
+    background-color: rgba(0,0,0,.8);
+    border: .5vw ridge #a67a00;
+}
+section > img{
+    border: .3vw solid #660d07;
+}
 main {
     display: grid;
     grid-template-columns:auto auto auto ;
@@ -89,8 +97,7 @@ main {
     
 }
 #main{
-    background-color: rgba(0,0,0,.8);
-    border: .5vw ridge #a67a00;
+ 
     width: 31vw;
     height: 60vw;
     font-size: 1.5vw;
@@ -101,23 +108,20 @@ main {
 
 #main > img {
     width: 29vw;
-    border: .3vw solid #660d07;
+    
     margin: .8vw;
    
 }
 
 .side {
     align-self: start;
-    background-color:  rgba(0,0,0,.8);
     width: 60vw;
     font-size: 1.5vw;
-    border: 10px ridge #a67a00;
     height: 16vw;
 }
 
 .side > img {
     width: 20vw;
-    border: .5vw solid #660d07;
     float: left;
     margin: 20px;
     
