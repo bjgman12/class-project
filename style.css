@@ -26,14 +26,12 @@ header {
     font-family: DSfont;
 
 }
-
-header > img {
+/* header > img {
     width: 150px;
     margin-left: 10px;
     margin-top : 10px;
     float: left;
-}
-
+} */
 h1 {
     text-align: center;
     padding: .1vw;
