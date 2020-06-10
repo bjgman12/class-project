@@ -27,20 +27,18 @@ setTimeout( function askName(){
 setTimeout (function askClass(){
     var question = prompt("Are you enjoying this 102 course? Yes or No?");
     var askClass = document.getElementById('askClass');
-
+    while(question !== "Yes" && question !== "yes" && question !== "No" && question !== "no" && question !== null)
+    {
+        question = prompt("Please enter Yes or No")
+    }
     if (question == "Yes" || question == "yes"){
         var message = ' I am glad to hear that.';
         askClass.innerText = message;
     } else if (question == "No" || question == "no"){
         var message = ' I am sorry to hear that.';
         askClass.innerText = message;
-    } else if ( question != null){
-        var message = ' I said yes or no but ok';
-        askClass.innerText = message;
-    } else {
-        var message = ' You like that cancel button dont you';
-        askClass.innerText = message;
     }
+
 }, 1000);
 
 
@@ -104,24 +102,45 @@ function clock(){
     //second updates
     var oneSecond = 1000;
     setInterval(updateClock,oneSecond);
-
+    
 }
+//Gets ratign of site
 
-//function logger(){
-  //  var message = 'hello playa';
-    //console.log(message);
-    //return message ;
 
-//}
-//function logUsername(username){
- //   var message = 'Hello' + username + '!';
-  //  return message ;
 
-//}
+// function compileImg(){
+    
+//     var result = '';
+//     var rating = getRating();
+    
+//     for (var i = 0 ; i < rating ; i++){
+//         result = result + '<img src="Ashe.png class="rating">';
+//     }
+    
+//     return result;
+// }
+// function displayRating(){
+    
+//     var result = compileImg();
+//     var message = result;
+//     document.write(result);
 
-//var buildCake = function(cakeType,frosting, filling){
-  //  var message =('I want a ' + cakeType + ' cake iced with ' + frosting + ' frosting and filled with ' + filling + '!')
-    //return message;
-//}
+// }
+function getRating(){
+    var rating = prompt(" How many Stars out of 5 would you give this site");
+    var result = '';
 
-//buildCake('white','lavender','lemon custard');
+    while( isNaN(rating) || rating > 5 || rating ==='')
+    {
+        var rating = prompt(" Please Enter a number between 0 and 5");
+    }
+    
+    for(var i = 0 ; i < rating ; i++)
+    {
+        result = result + '<p class="rating"><img src="Ashe.png" class="rating"></p>'; 
+        console.log(result);
+    }
+    return result;  
+    }
+
+    

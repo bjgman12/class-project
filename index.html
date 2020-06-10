@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Fight Tactics Basics</title>
     <link rel="stylesheet" href="style.css">
-    
+    <script src="app.js" ></script>
 </head>
 <body>
    <header>
@@ -33,7 +33,6 @@
         <h3>
             <span id="askClass"></span>
         </h3>
-        
            <img src="TFT.jpg" alt="Aurelion Sol TFT picture">
 
                <p> TFT is an auto chess game developes by RIOT games known most famously
@@ -77,6 +76,12 @@
                    are targeted with priority
                </p>
        </section>
+
+
+       <article id="s4">
+       <script>document.getElementById("s4").innerHTML = getRating();</script>
+       </article>
+      
    </main>
 
    <footer>
@@ -88,13 +93,15 @@
             </ul>
            
        </nav>
+       
    </footer>
-  
    <!--<script src="clock.js"></script>-->
-   <script src="app.js" ></script>
+  
    <script>clock();</script>
    <script>askName();</script>
    <script>askClass();</script>
+   
+   
 </body>
 
 </html>
