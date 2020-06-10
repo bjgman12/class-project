@@ -9,6 +9,7 @@
 body {
     background-image: url("Jhin.png");
     background-size: cover;
+    background-attachment: fixed;
     color: #a67a00;
     font-family: 'Times New Roman', Times, serif;
 }
